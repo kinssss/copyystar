@@ -1,0 +1,630 @@
+body {
+    margin: 0;
+}
+
+.fon {
+    padding: 10px 0;
+    background-color: #2B2929;
+}
+
+@media screen and (max-width: 720px) {
+    .fon {
+        padding: 10px 0;
+        background-color: #2B2929;
+    }
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-top: -3px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        display: none;
+        }
+}
+
+.btn-12 {
+    display: inline-block;
+    padding: 15px 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    .btn-12 {
+        display: inline-block;
+        padding: 15px 40px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        position:relative;
+        overflow:hidden;
+        margin: 0 20px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+  
+.btn-12:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : #fff;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 720px) {
+    .btn-12:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        background : #fff;
+        left: 45%;
+        height: 2px;
+        bottom: 0;
+        transition: all .3s;
+        opacity: 0.7;
+    }
+}
+  
+.btn-12:hover:before {
+    width: 100%;
+    left:0;
+}
+
+@media screen and (max-width: 720px) {
+    .btn-12:hover:before {
+        width: 100%;
+        left:0;
+    }
+}
+
+.reg {
+    display:  inline-block;
+    height: 30px;
+    width: 150px;
+    border: 2px solid #BFC0C0;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    .reg {
+        display:  inline-block;
+        height: 30px;
+        width: 120px;
+        border: 2px solid #BFC0C0;
+        margin: 10px 10px 10px 10px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: .6em;
+        letter-spacing: 1.5px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.reg-2 {
+    top: 7px;
+    right: 7px;
+    display: grid;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .reg-2 {
+        top: 7px;
+        right: 7px;
+        display: grid;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+.copy-star {
+    display: none;
+}
+
+.card1{
+    top: 30px;
+    width: 500px;
+    min-height: 200px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .card1{
+        left: 130px;
+        top:  530px;
+        width: 500px;
+        min-height: 200px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        border-radius: 4px;
+        transition: 0.2s;
+        position: absolute;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+}
+
+.card2{
+    top: 30px;
+    width: 500px;
+    min-height: 200px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .card2{
+        left: 130px;
+        top: 780px;
+        width: 500px;
+        min-height: 200px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        border-radius: 4px;
+        transition: 0.2s;
+        position: absolute;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+}
+
+.card3{
+    top: 30px;
+    width: 500px;
+    min-height: 200px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .card3{
+        left: 130px;
+        top: 1030px;
+        width: 500px;
+        min-height: 200px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        border-radius: 4px;
+        transition: 0.2s;
+        position: absolute;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+}
+
+.card4{
+    top: 30px;
+    width: 500px;
+    min-height: 200px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .card4{
+        left: 130px;
+        top: 1280px;
+        width: 500px;
+        min-height: 200px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        border-radius: 4px;
+        transition: 0.2s;
+        position: absolute;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+}
+
+.card1:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card2:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card3:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card4:hover {  
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards, .cards2, .card1, .card2, .card3, .card4 {
+    margin: 20px;
+}
+
+.image1 {
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.text-card {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.button-17 {
+    margin-top: 75px;
+    margin-left: 195px;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 35px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 40%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: absolute;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+}
+
+.button-17:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+}
+
+.button-17:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+}
+
+.button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.podval {
+    padding: 100px 0;
+    background-color: #2B2929;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 720px) {
+    .podval {
+            padding: 100px 0;
+            margin-top: 1000px;
+            background-color: #2B2929;
+            display: flex; 
+            position: relative;
+    }
+}
+
+.logopod {
+    margin-top: -105px;
+    height: 5px;
+    width: 180px;
+    height: 180px;
+}
+
+.textpod {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 1.5px;
+    display: flex;
+}
+
+@media screen and (max-width: 720px) {
+    .textpod {
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        letter-spacing: 1.5px;
+        display: flex;
+    }
+}
+
+.client {
+    margin-top: -140px;
+    margin-left: 550px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .client {
+        margin-top: -60px;
+        margin-left: 80px;
+    }
+}
+
+.user {
+    margin-top: -24px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user {
+        margin-top: -60px;
+        margin-left: 50px;
+    }
+}
+
+.textpod2 {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #AAAAAA;
+    letter-spacing: 1.5px;
+    display: flex;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+    .textpod2 {
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #AAAAAA;
+        letter-spacing: 1.5px;
+        display: flex;
+        text-decoration: none;
+    }
+}
+
+.adress {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 720px) {
+    .adress {
+        margin-top: 40px;
+        margin-left: -520px;
+    }
+}
+
+.mail {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 720px) {
+    .mail {
+        margin-top: 65px;
+        margin-left: -190px;
+    }
+}
+
+.client1 {
+    margin-top: -120px;
+    margin-left: 550px;
+}
+
+@media screen and (max-width: 720px) {
+    .client1 {
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+}
+
+.client2 {
+    margin-top: 5px;
+    margin-left: 550px;
+} 
+
+@media screen and (max-width: 720px) {
+    .client2 {
+        margin-top: -10px;
+        margin-left: -38px;
+    } 
+}
+
+.client3 {
+    margin-top: 7px;
+    margin-left: 550px;
+}
+
+@media screen and (max-width: 720px) {
+    .client3 {
+        margin-top:  10px;
+        margin-left: -54px;
+    }
+}
+
+.client4 {
+    margin-top: 8px;
+    margin-left: 550px;
+}
+
+@media screen and (max-width: 720px) {
+    .client4 {
+        margin-top: 31px;
+        margin-left: -53px;
+    }
+}
+
+.user1 {
+    margin-top: -105px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user1 {
+        margin-top: -30px;
+        margin-left: 47px;
+
+    }
+}
+
+.user2 {
+    margin-top: 5px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user2 {
+        margin-top: -10px;
+        margin-left: -112px;
+    }
+}
+
+.user3 {
+    margin-top: 7px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user3 {
+        margin-top: 10px;
+        margin-left: -165px;
+    }
+}
+
+.user4 {
+    margin-top: 9px;
+    margin-left: 750px;
+    
+}
+
+@media screen and (max-width: 720px) {
+    .user4 {
+        margin-top: 30px;
+        margin-left: -125px;
+    }
+}
+
+.user5 {
+    margin-top: 10px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user5 {
+        margin-top: 50px;
+        margin-left: -137px;
+    }
+}

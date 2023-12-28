@@ -1,0 +1,81 @@
+html {
+    background-image: url(img/fon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.reg-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.logo {
+    height: 15vh;
+}
+
+.logot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 300px;
+    /* Максимальная ширина формы */
+    
+    /* Центрирование формы */
+    background-color: white;
+    /* Цвет фона формы */
+    padding: 20px;
+    /* Отступы внутри формы */
+    border-radius: 10px;
+    /* Скругление углов формы */
+    box-shadow: 0 0 10px rgba(160, 152, 152, 0.473);
+    /* Тень формы */
+}
+
+input[type="text"] {
+    width: 93%;
+    /* Ширина поля ввода */
+    padding: 10px;
+    /* Отступы внутри поля ввода */
+    margin-bottom: 5px;
+    border: none;
+    /* Граница поля ввода */
+    border-radius: 5px;
+    /* Скругление углов поля ввода */
+    background-color: rgba(255, 255, 255, 0.473);
+    /* Прозрачный цвет фона поля ввода */
+}
+
+input[type="button"] {
+    width: 100%;
+    /* Ширина кнопки отправки формы */
+    padding: 10px;
+    /* Отступы внутри кнопки */
+    border: none;
+    /* Убираем границу у кнопки */
+    border-radius: 5px;
+    /* Скругление углов кнопки */
+    background-color: #2B2929;
+    /* Цвет кнопки отправки формы */
+    color: #fff;
+    /* Цвет текста на кнопке */
+    cursor: pointer;
+    /* Изменяем курсор при наведении на кнопку */
+}

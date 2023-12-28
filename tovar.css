@@ -1,0 +1,334 @@
+.body {
+    margin: 0;
+}
+
+.back {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+.namet {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative;
+}
+
+.opis1 {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative;
+    display: flex;
+}
+
+.harakter {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: flex;
+}
+
+.zvezd {
+    height: 50px;
+    width: 100px;
+    margin-top: -15px;
+    margin-left: 650px;
+    position: relative;
+}
+
+.typc {
+    display: flex;
+}
+
+@media screen and (max-width: 720px) {
+  .typc {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.position1 {
+  margin-top: -75px; margin-left: 900px;
+}
+
+@media screen and (max-width: 720px) {
+    .position1 {
+        margin-top: -75px; margin-left: 500px;
+    }
+}
+
+.position2 {
+    margin-left: 900px;
+}
+
+@media screen and (max-width: 720px) {
+  .position2 {
+      margin-left: 500px;
+  }
+}
+
+.position3 {
+    margin-top: 60px;
+    margin-left: 50px;
+    overflow: hidden;
+    padding-right: 30px;
+  }
+
+@media screen and (max-width: 720px) {
+  .position3 {
+      margin-left: 70px;
+      overflow: hidden;
+      padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .position4 {
+      margin-left: 70px;
+  }
+}
+
+.position5 {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 720px) {
+  .position5 {
+      margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .position6 {
+      margin-left: 70px;
+  }
+}
+
+.position7 {
+    margin-left: 55px; 
+    margin-top: 13px; 
+    font-size: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    position: relative;
+}
+
+@media screen and (max-width: 720px) {
+  .position7 {
+      margin-left: 70px; 
+      font-size: 20px; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      position: relative;
+  }
+}
+
+.position8 {
+    margin-left: 70px;
+    position: relative;
+}
+
+@media screen and (max-width: 720px) {
+  .position8 {
+      margin-top: 10px; 
+      margin-left: 100px;
+  }
+}
+  .c {
+    min-width: 500px;
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0 8px 48px 2px hsla(10 6% 15% / .4);
+    margin-left: 150px;
+    margin-top: 70px;
+  
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  
+    position: relative;
+    overflow: hidden;
+    background: hsl(0 0% 90%);
+  
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 720px) {
+    .c {
+      min-width: 500px;
+      width: 500px;
+      height: 400px;
+      border-radius: 12px;
+      padding: 20px;
+      padding-bottom: 40px;
+      box-shadow: 0 8px 48px 2px hsla(10 6% 15% / .4);
+      margin-left: 65px;
+      margin-top: 70px;
+    
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    
+      position: relative;
+      overflow: hidden;
+      background: hsl(0 0% 90%);
+    
+      box-sizing: border-box;
+    }
+  }
+  
+  .ci {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: inherit;
+    height: inherit;
+    transform-origin: left 50%;
+  
+    background: inherit;
+  
+    z-index: var(--z);
+    transition: .3s ease-out;
+  }
+  
+  .ci img {
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .ch {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    transform: translateY(-50%);
+  
+    font-size: 2rem;
+    color: hsla(var(--h) var(--s) var(--l) / .8);
+    text-shadow: 0 2px 10px hsla(var(--h) var(--s) 10% / .3);
+  }
+  
+  input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: -10;
+  }
+  
+  label {
+    width: 10%;
+    height: 10px;
+    margin-right: 4px;
+    border-radius: 20px;
+  
+    background: hsla(0 0% 90% / .3);
+    cursor: pointer;
+  
+    position: relative;
+    z-index: 10;
+  }
+  
+  label:last-child {
+    margin-right: 0;
+  }
+  
+  input:checked+label {
+    background: linear-gradient(to right,
+      hsla(var(--hue) 80% 70% / .7),
+      hsla(calc(var(--hue) + 30) 80% 50% / .7));
+  }
+  
+  input:not(:checked)+label+.ci {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  input:checked+label+.ci~.ci {
+    transform: translateX(100%);
+  }
+  
+  input:not(:checked)+label+.ci {
+    transition: 0;
+  }
+
+  .button-17 {
+    margin-top: 10px;
+    margin-left: 30px;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 35px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 40%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 190px;
+    will-change: transform,opacity;
+    z-index: 0;
+}
+
+.button-17:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+}
+
+.button-17:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+}
+
+.button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+

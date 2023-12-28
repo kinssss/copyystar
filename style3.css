@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    height: 100%;
+
+}
+
+.fon {
+    padding: 10px 0;
+    background-color: #2B2929;
+}
+
+@media screen and (max-width: 720px) {
+    .fon {
+        padding: 10px 0;
+        background-color: #2B2929;
+        position: relative;
+    }
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-top: -3px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        display: none;
+        }
+}
+
+.btn-12 {
+    display: inline-block;
+    padding: 15px 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    .btn-12 {
+        display: inline-block;
+        padding: 15px 40px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        position:relative;
+        overflow:hidden;
+        margin: 0 20px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+  
+.btn-12:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : #fff;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 720px) {
+    .btn-12:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        background : #fff;
+        left: 45%;
+        height: 2px;
+        bottom: 0;
+        transition: all .3s;
+        opacity: 0.7;
+    }
+}
+  
+.btn-12:hover:before {
+    width: 100%;
+    left:0;
+}
+
+@media screen and (max-width: 720px) {
+    .btn-12:hover:before {
+        width: 100%;
+        left:0;
+    }
+}
+
+.reg {
+    display:  inline-block;
+    height: 30px;
+    width: 150px;
+    border: 2px solid #BFC0C0;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    .reg {
+        display:  inline-block;
+        height: 30px;
+        width: 120px;
+        border: 2px solid #BFC0C0;
+        margin: 10px 10px 10px 10px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: .6em;
+        letter-spacing: 1.5px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.reg-2 {
+    top: 7px;
+    right: 7px;
+    display: grid;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .reg-2 {
+        top: 7px;
+        right: 7px;
+        display: grid;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+.text2 {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    .text2 {
+        display: flex;
+        margin-top: 65px;
+        position: relative;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.text3 {
+    display: flex;
+    margin-top: 5px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.podval {
+    padding: 80px 0;
+    background-color: #2B2929;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 720px) {
+    .podval {
+        padding: 100px 0;
+        background-color: #2B2929;
+        margin-top: 500px;
+        display: flex;
+        flex: 0 0 auto;
+        position: relative;
+    }
+}
+
+.logopod {
+    margin-top: -105px;
+    height: 5px;
+    width: 180px;
+    height: 180px;
+}
+
+.textpod {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 1.5px;
+    display: flex;
+}
+
+@media screen and (max-width: 720px) {
+    .textpod {
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        letter-spacing: 1.5px;
+        display: flex;
+    }
+}
+
+.client {
+    margin-top: -140px;
+    margin-left: 550px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .client {
+        margin-top: -60px;
+        margin-left: 80px;
+    }
+}
+
+.user {
+    margin-top: -24px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user {
+        margin-top: -60px;
+        margin-left: 50px;
+    }
+}
+
+.textpod2 {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #AAAAAA;
+    letter-spacing: 1.5px;
+    display: flex;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+    .textpod2 {
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #AAAAAA;
+        letter-spacing: 1.5px;
+        display: flex;
+        text-decoration: none;
+    }
+}
+
+.adress {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 720px) {
+    .adress {
+        margin-top: 40px;
+        margin-left: -520px;
+    }
+}
+
+.mail {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 720px) {
+    .mail {
+        margin-top: 65px;
+        margin-left: -190px;
+    }
+}
+
+.client1 {
+    margin-top: -120px;
+    margin-left: 550px;
+}
+
+@media screen and (max-width: 720px) {
+    .client1 {
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+}
+
+.client2 {
+    margin-top: 5px;
+    margin-left: 550px;
+} 
+
+@media screen and (max-width: 720px) {
+    .client2 {
+        margin-top: -10px;
+        margin-left: -38px;
+    } 
+}
+
+.client3 {
+    margin-top: 7px;
+    margin-left: 550px;
+}
+
+@media screen and (max-width: 720px) {
+    .client3 {
+        margin-top:  10px;
+        margin-left: -54px;
+    }
+}
+
+.client4 {
+    margin-top: 8px;
+    margin-left: 550px;
+}
+
+@media screen and (max-width: 720px) {
+    .client4 {
+        margin-top: 31px;
+        margin-left: -53px;
+    }
+}
+
+.user1 {
+    margin-top: -105px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user1 {
+        margin-top: -30px;
+        margin-left: 47px;
+
+    }
+}
+
+.user2 {
+    margin-top: 5px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user2 {
+        margin-top: -10px;
+        margin-left: -112px;
+    }
+}
+
+.user3 {
+    margin-top: 7px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user3 {
+        margin-top: 10px;
+        margin-left: -165px;
+    }
+}
+
+.user4 {
+    margin-top: 9px;
+    margin-left: 750px;
+    
+}
+
+@media screen and (max-width: 720px) {
+    .user4 {
+        margin-top: 30px;
+        margin-left: -125px;
+    }
+}
+
+.user5 {
+    margin-top: 10px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 720px) {
+    .user5 {
+        margin-top: 50px;
+        margin-left: -137px;
+    }
+}
